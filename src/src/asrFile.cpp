@@ -91,7 +91,7 @@ void initialize(string* s) {
 	ASR.initialize();
 }
 
-void bodyHandle() {
+void bodyHandle(int t) {
 	fstream f;
 	string c;
 
@@ -109,7 +109,7 @@ void bodyHandle() {
 		extract();
 		execute();
 	}
-	present(10000);
+	present(t);
 }
 
 void lex(string s) {

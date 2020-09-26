@@ -19,8 +19,16 @@ ASRScript files have the .asr extension.
 In order to run a .asr file open up your terminal and navigate to the directory, where the asr binary is located.
 Now type in the following command into your command line
 
+Windows:
+
 ```
 asr -asr <path to your .asr file> <the amount of time for how long the render should be displayed>
+```
+
+Linux and macOS:
+
+```
+./asr -asr <path to your .asr file> <the amount of time for how long the render should be displayed
 ```
 
 Now press enter and see your ASRscript code being realized.
@@ -32,8 +40,16 @@ Now press enter and see your ASRscript code being realized.
 To get information about the ASRealize interpreter navigate to the directory, where the asr binary is located.
 Now type in the following command into your command line
 
+Windows:
+
 ```
 asr -ver
+```
+
+Linux and macOS:
+
+```
+./asr -ver
 ```
 
 ## How does ASRealize1 work?

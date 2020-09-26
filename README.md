@@ -126,4 +126,5 @@ So here are some features I am planning for the ASRscript language and ASRealize
   * optimizing the ASR library and the Interpretation process
   
  If you have any ideas, which can be added to this project then feel free to share it with me via email.
- Also binaries for macOS and Ubuntu (and hopefully soon some other distros) and the documentation for ASRscript will be released in the coming days. 
+ Also binary for macOS and the documentation for ASRscript will be released in the coming days. 
+ (although it's a hard to handle)

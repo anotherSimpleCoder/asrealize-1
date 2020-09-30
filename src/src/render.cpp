@@ -11,7 +11,7 @@ surf screen;
 
 
 void init() {
-	window = SDL_CreateWindow("2D Render", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, screen.maxX, screen.maxY, SDL_WINDOW_SHOWN);
+	window = SDL_CreateWindow("asr", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, screen.maxX, screen.maxY, SDL_WINDOW_SHOWN);
 	if (window == NULL) {
 		cout << "Window could not be created! SDL Error: " << SDL_GetError();
 	}

@@ -27,7 +27,7 @@ void initialize(std::string* s);
 	Parameters:
 		- t: The amount of time in ms for showing the render.
 */
-void bodyHandle(int t);
+void bodyHandle(int t, std::string s);
 
 /*
 	Makes a lexical analysis of the code by detecting the symbols and adding its respective token to the token List. (More info about tokens in token.h)

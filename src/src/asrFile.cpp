@@ -91,11 +91,11 @@ void initialize(string* s) {
 	ASR.initialize();
 }
 
-void bodyHandle(int t) {
+void bodyHandle(int t, string s) {
 	fstream f;
 	string c;
 
-	f.open("test.asr", ios::in);
+	f.open(s, ios::in);
 
 	getline(f, c);
 

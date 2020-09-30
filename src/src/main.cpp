@@ -42,7 +42,7 @@ int main(int argc, char *argv[]) {
 
 void readFile(string p, int t) {
 	fileHandle(p);
-	bodyHandle(t);
+	bodyHandle(t, p);
 }
 
 void version() {
